@@ -1,0 +1,207 @@
+2024/01/13 17:03:09 [1;34m[I] [root.go:220] start frpc service for config file [./frpc.ini][0m
+2024/01/13 17:03:09 [1;34m[I] [service.go:301] [77d7de26d6073c40] login to server success, get run id [77d7de26d6073c40][0m
+2024/01/13 17:03:09 [1;34m[I] [proxy_manager.go:150] [77d7de26d6073c40] proxy added: [ssh][0m
+2024/01/13 17:03:09 [1;33m[W] [control.go:170] [77d7de26d6073c40] [ssh] start error: port unavailable[0m
+2024/01/13 17:05:42 [1;34m[I] [root.go:220] start frpc service for config file [./frpc.ini][0m
+2024/01/13 17:05:43 [1;34m[I] [service.go:301] [dfb10b40a01ec6f6] login to server success, get run id [dfb10b40a01ec6f6][0m
+2024/01/13 17:05:43 [1;34m[I] [proxy_manager.go:150] [dfb10b40a01ec6f6] proxy added: [ssh][0m
+2024/01/13 17:05:43 [1;33m[W] [control.go:170] [dfb10b40a01ec6f6] [ssh] start error: port unavailable[0m
+2024/01/13 17:27:26 [1;34m[I] [root.go:220] start frpc service for config file [./frpc.ini][0m
+2024/01/13 17:27:36 [1;33m[W] [service.go:133] login to server failed: connection write timeout[0m
+2024/01/13 17:27:36 [1;34m[I] [root.go:236] frpc service for config file [./frpc.ini] stopped[0m
+open ./fprc.ini: no such file or directory
+2024/01/14 11:43:33 [1;34m[I] [root.go:220] start frpc service for config file [./frpc.ini][0m
+2024/01/14 11:43:33 [1;33m[W] [service.go:133] login to server failed: dial tcp 127.0.0.1:7890: connect: connection refused[0m
+2024/01/14 11:43:33 [1;34m[I] [root.go:236] frpc service for config file [./frpc.ini] stopped[0m
+2024/01/14 13:54:19 [1;34m[I] [root.go:220] start frpc service for config file [./frpc.ini][0m
+2024/01/14 13:54:19 [1;33m[W] [service.go:133] login to server failed: dial tcp 127.0.0.1:7890: connect: connection refused[0m
+2024/01/14 13:54:19 [1;34m[I] [root.go:236] frpc service for config file [./frpc.ini] stopped[0m
+2024/01/14 14:06:43 [1;34m[I] [root.go:220] start frpc service for config file [./frpc.ini][0m
+2024/01/14 14:06:43 [1;33m[W] [service.go:133] login to server failed: dial tcp 127.0.0.1:7890: connect: connection refused[0m
+2024/01/14 14:06:43 [1;34m[I] [root.go:236] frpc service for config file [./frpc.ini] stopped[0m
+2024/01/14 14:12:24 [1;34m[I] [root.go:220] start frpc service for config file [./frpc.ini][0m
+2024/01/14 14:12:24 [1;34m[I] [service.go:301] [7607fa36bb421edd] login to server success, get run id [7607fa36bb421edd][0m
+2024/01/14 14:12:24 [1;34m[I] [proxy_manager.go:150] [7607fa36bb421edd] proxy added: [my_ssh][0m
+2024/01/14 14:12:24 [1;34m[I] [control.go:172] [7607fa36bb421edd] [my_ssh] start proxy success[0m
+2024/01/14 16:30:39 [1;34m[I] [control.go:252] [7607fa36bb421edd] control writer is closing[0m
+2024/01/14 16:30:39 [1;34m[I] [visitor_manager.go:77] [7607fa36bb421edd] gracefully shutdown visitor manager[0m
+2024/01/14 16:30:39 [1;34m[I] [service.go:214] [7607fa36bb421edd] try to reconnect to server...[0m
+2024/01/14 16:30:46 [1;34m[I] [service.go:301] [7607fa36bb421edd] login to server success, get run id [7607fa36bb421edd][0m
+2024/01/14 16:30:46 [1;34m[I] [proxy_manager.go:150] [7607fa36bb421edd] proxy added: [my_ssh][0m
+2024/01/14 16:30:46 [1;34m[I] [control.go:172] [7607fa36bb421edd] [my_ssh] start proxy success[0m
+2024/01/14 16:42:56 [1;34m[I] [control.go:252] [7607fa36bb421edd] control writer is closing[0m
+2024/01/14 16:42:56 [1;34m[I] [visitor_manager.go:77] [7607fa36bb421edd] gracefully shutdown visitor manager[0m
+2024/01/14 16:42:57 [1;34m[I] [service.go:214] [7607fa36bb421edd] try to reconnect to server...[0m
+2024/01/14 16:43:07 [1;33m[W] [service.go:217] [7607fa36bb421edd] reconnect to server error: connection write timeout, wait 1s for another retry[0m
+2024/01/14 16:43:08 [1;34m[I] [service.go:214] [7607fa36bb421edd] try to reconnect to server...[0m
+2024/01/14 16:43:18 [1;33m[W] [service.go:217] [7607fa36bb421edd] reconnect to server error: connection write timeout, wait 2s for another retry[0m
+2024/01/14 16:43:20 [1;34m[I] [service.go:214] [7607fa36bb421edd] try to reconnect to server...[0m
+2024/01/14 16:43:30 [1;33m[W] [service.go:217] [7607fa36bb421edd] reconnect to server error: connection write timeout, wait 4s for another retry[0m
+2024/01/14 16:43:34 [1;34m[I] [service.go:214] [7607fa36bb421edd] try to reconnect to server...[0m
+2024/01/14 16:43:44 [1;33m[W] [service.go:217] [7607fa36bb421edd] reconnect to server error: connection write timeout, wait 8s for another retry[0m
+2024/01/14 16:43:51 [1;34m[I] [service.go:214] [7607fa36bb421edd] try to reconnect to server...[0m
+2024/01/14 16:44:01 [1;33m[W] [service.go:217] [7607fa36bb421edd] reconnect to server error: connection write timeout, wait 16s for another retry[0m
+2024/01/14 16:44:16 [1;34m[I] [service.go:214] [7607fa36bb421edd] try to reconnect to server...[0m
+2024/01/14 16:44:26 [1;33m[W] [service.go:217] [7607fa36bb421edd] reconnect to server error: connection write timeout, wait 20s for another retry[0m
+2024/01/14 16:44:47 [1;34m[I] [service.go:214] [7607fa36bb421edd] try to reconnect to server...[0m
+2024/01/14 16:44:57 [1;33m[W] [service.go:217] [7607fa36bb421edd] reconnect to server error: connection write timeout, wait 20s for another retry[0m
+2024/01/14 16:45:19 [1;34m[I] [service.go:214] [7607fa36bb421edd] try to reconnect to server...[0m
+2024/01/14 16:45:29 [1;33m[W] [service.go:217] [7607fa36bb421edd] reconnect to server error: connection write timeout, wait 20s for another retry[0m
+2024/01/14 16:45:47 [1;34m[I] [service.go:214] [7607fa36bb421edd] try to reconnect to server...[0m
+2024/01/14 16:45:57 [1;33m[W] [service.go:217] [7607fa36bb421edd] reconnect to server error: connection write timeout, wait 20s for another retry[0m
+2024/01/14 16:46:17 [1;34m[I] [service.go:214] [7607fa36bb421edd] try to reconnect to server...[0m
+2024/01/14 16:46:27 [1;33m[W] [service.go:217] [7607fa36bb421edd] reconnect to server error: connection write timeout, wait 20s for another retry[0m
+2024/01/14 16:46:45 [1;34m[I] [service.go:214] [7607fa36bb421edd] try to reconnect to server...[0m
+2024/01/14 16:46:55 [1;33m[W] [service.go:217] [7607fa36bb421edd] reconnect to server error: connection write timeout, wait 20s for another retry[0m
+2024/01/14 16:47:16 [1;34m[I] [service.go:214] [7607fa36bb421edd] try to reconnect to server...[0m
+2024/01/14 16:47:26 [1;33m[W] [service.go:217] [7607fa36bb421edd] reconnect to server error: connection write timeout, wait 20s for another retry[0m
+2024/01/14 16:47:47 [1;34m[I] [service.go:214] [7607fa36bb421edd] try to reconnect to server...[0m
+2024/01/14 16:47:57 [1;33m[W] [service.go:217] [7607fa36bb421edd] reconnect to server error: connection write timeout, wait 20s for another retry[0m
+2024/01/14 16:48:16 [1;34m[I] [service.go:214] [7607fa36bb421edd] try to reconnect to server...[0m
+2024/01/14 16:48:21 [1;34m[I] [service.go:301] [7607fa36bb421edd] login to server success, get run id [7607fa36bb421edd][0m
+2024/01/14 16:48:21 [1;34m[I] [proxy_manager.go:150] [7607fa36bb421edd] proxy added: [my_ssh][0m
+2024/01/14 16:48:21 [1;34m[I] [control.go:172] [7607fa36bb421edd] [my_ssh] start proxy success[0m
+2024/01/14 16:48:39 [1;34m[I] [control.go:252] [7607fa36bb421edd] control writer is closing[0m
+2024/01/14 16:48:39 [1;34m[I] [visitor_manager.go:77] [7607fa36bb421edd] gracefully shutdown visitor manager[0m
+2024/01/14 16:48:39 [1;34m[I] [service.go:214] [7607fa36bb421edd] try to reconnect to server...[0m
+2024/01/14 16:48:42 [1;33m[W] [service.go:217] [7607fa36bb421edd] reconnect to server error: session shutdown, wait 1s for another retry[0m
+2024/01/14 16:48:43 [1;34m[I] [service.go:214] [7607fa36bb421edd] try to reconnect to server...[0m
+2024/01/14 16:48:47 [1;33m[W] [service.go:217] [7607fa36bb421edd] reconnect to server error: session shutdown, wait 2s for another retry[0m
+2024/01/14 16:48:49 [1;34m[I] [service.go:214] [7607fa36bb421edd] try to reconnect to server...[0m
+2024/01/14 16:48:54 [1;33m[W] [service.go:217] [7607fa36bb421edd] reconnect to server error: session shutdown, wait 4s for another retry[0m
+2024/01/14 16:48:58 [1;34m[I] [service.go:214] [7607fa36bb421edd] try to reconnect to server...[0m
+2024/01/14 16:49:03 [1;33m[W] [service.go:217] [7607fa36bb421edd] reconnect to server error: EOF, wait 8s for another retry[0m
+2024/01/14 16:49:11 [1;34m[I] [service.go:214] [7607fa36bb421edd] try to reconnect to server...[0m
+2024/01/14 16:49:14 [1;33m[W] [service.go:217] [7607fa36bb421edd] reconnect to server error: session shutdown, wait 16s for another retry[0m
+2024/01/14 16:49:30 [1;34m[I] [service.go:214] [7607fa36bb421edd] try to reconnect to server...[0m
+2024/01/14 16:49:33 [1;33m[W] [service.go:217] [7607fa36bb421edd] reconnect to server error: session shutdown, wait 20s for another retry[0m
+2024/01/14 16:49:52 [1;34m[I] [service.go:214] [7607fa36bb421edd] try to reconnect to server...[0m
+2024/01/14 16:49:55 [1;33m[W] [service.go:217] [7607fa36bb421edd] reconnect to server error: session shutdown, wait 20s for another retry[0m
+2024/01/14 16:50:15 [1;34m[I] [service.go:214] [7607fa36bb421edd] try to reconnect to server...[0m
+2024/01/14 16:50:19 [1;33m[W] [service.go:217] [7607fa36bb421edd] reconnect to server error: session shutdown, wait 20s for another retry[0m
+2024/01/14 16:50:37 [1;34m[I] [service.go:214] [7607fa36bb421edd] try to reconnect to server...[0m
+2024/01/14 16:50:41 [1;33m[W] [service.go:217] [7607fa36bb421edd] reconnect to server error: session shutdown, wait 20s for another retry[0m
+2024/01/14 16:51:00 [1;34m[I] [service.go:214] [7607fa36bb421edd] try to reconnect to server...[0m
+2024/01/14 16:51:01 [1;34m[I] [service.go:301] [7607fa36bb421edd] login to server success, get run id [7607fa36bb421edd][0m
+2024/01/14 16:51:01 [1;34m[I] [proxy_manager.go:150] [7607fa36bb421edd] proxy added: [my_ssh][0m
+2024/01/14 16:51:01 [1;34m[I] [control.go:172] [7607fa36bb421edd] [my_ssh] start proxy success[0m
+2024/01/14 20:04:00 [1;31m[E] [proxy.go:196] [7607fa36bb421edd] [my_ssh] connect to local service [192.168.100.235:22] error: dial tcp 192.168.100.235:22: connect: no route to host[0m
+2024/01/14 20:55:33 [1;31m[E] [proxy.go:196] [7607fa36bb421edd] [my_ssh] connect to local service [192.168.100.235:22] error: dial tcp 192.168.100.235:22: connect: no route to host[0m
+2024/01/14 22:05:23 [1;34m[I] [control.go:252] [7607fa36bb421edd] control writer is closing[0m
+2024/01/14 22:05:23 [1;34m[I] [visitor_manager.go:77] [7607fa36bb421edd] gracefully shutdown visitor manager[0m
+2024/01/14 22:05:23 [1;34m[I] [service.go:214] [7607fa36bb421edd] try to reconnect to server...[0m
+2024/01/14 22:05:33 [1;33m[W] [service.go:217] [7607fa36bb421edd] reconnect to server error: connection write timeout, wait 1s for another retry[0m
+2024/01/14 22:05:34 [1;34m[I] [service.go:214] [7607fa36bb421edd] try to reconnect to server...[0m
+2024/01/14 22:05:44 [1;33m[W] [service.go:217] [7607fa36bb421edd] reconnect to server error: connection write timeout, wait 2s for another retry[0m
+2024/01/14 22:05:46 [1;34m[I] [service.go:214] [7607fa36bb421edd] try to reconnect to server...[0m
+2024/01/14 22:05:56 [1;33m[W] [service.go:217] [7607fa36bb421edd] reconnect to server error: connection write timeout, wait 4s for another retry[0m
+2024/01/14 22:06:00 [1;34m[I] [service.go:214] [7607fa36bb421edd] try to reconnect to server...[0m
+2024/01/14 22:06:10 [1;33m[W] [service.go:217] [7607fa36bb421edd] reconnect to server error: connection write timeout, wait 8s for another retry[0m
+2024/01/14 22:06:19 [1;34m[I] [service.go:214] [7607fa36bb421edd] try to reconnect to server...[0m
+2024/01/14 22:06:29 [1;33m[W] [service.go:217] [7607fa36bb421edd] reconnect to server error: connection write timeout, wait 16s for another retry[0m
+2024/01/14 22:06:46 [1;34m[I] [service.go:214] [7607fa36bb421edd] try to reconnect to server...[0m
+2024/01/14 22:06:56 [1;33m[W] [service.go:217] [7607fa36bb421edd] reconnect to server error: connection write timeout, wait 20s for another retry[0m
+2024/01/14 22:07:16 [1;34m[I] [service.go:214] [7607fa36bb421edd] try to reconnect to server...[0m
+2024/01/14 22:07:26 [1;33m[W] [service.go:217] [7607fa36bb421edd] reconnect to server error: connection write timeout, wait 20s for another retry[0m
+2024/01/14 22:07:45 [1;34m[I] [service.go:214] [7607fa36bb421edd] try to reconnect to server...[0m
+2024/01/14 22:07:55 [1;33m[W] [service.go:217] [7607fa36bb421edd] reconnect to server error: connection write timeout, wait 20s for another retry[0m
+2024/01/14 22:08:16 [1;34m[I] [service.go:214] [7607fa36bb421edd] try to reconnect to server...[0m
+2024/01/14 22:08:26 [1;33m[W] [service.go:217] [7607fa36bb421edd] reconnect to server error: connection write timeout, wait 20s for another retry[0m
+2024/01/14 22:08:46 [1;34m[I] [service.go:214] [7607fa36bb421edd] try to reconnect to server...[0m
+2024/01/14 22:08:56 [1;33m[W] [service.go:217] [7607fa36bb421edd] reconnect to server error: connection write timeout, wait 20s for another retry[0m
+2024/01/14 22:09:17 [1;34m[I] [service.go:214] [7607fa36bb421edd] try to reconnect to server...[0m
+2024/01/14 22:09:27 [1;33m[W] [service.go:217] [7607fa36bb421edd] reconnect to server error: connection write timeout, wait 20s for another retry[0m
+2024/01/14 22:09:47 [1;34m[I] [service.go:214] [7607fa36bb421edd] try to reconnect to server...[0m
+2024/01/14 22:09:57 [1;33m[W] [service.go:217] [7607fa36bb421edd] reconnect to server error: connection write timeout, wait 20s for another retry[0m
+2024/01/14 22:10:16 [1;34m[I] [service.go:214] [7607fa36bb421edd] try to reconnect to server...[0m
+2024/01/14 22:10:26 [1;33m[W] [service.go:217] [7607fa36bb421edd] reconnect to server error: connection write timeout, wait 20s for another retry[0m
+2024/01/14 22:10:44 [1;34m[I] [service.go:214] [7607fa36bb421edd] try to reconnect to server...[0m
+2024/01/14 22:10:54 [1;33m[W] [service.go:217] [7607fa36bb421edd] reconnect to server error: connection write timeout, wait 20s for another retry[0m
+2024/01/14 22:11:12 [1;34m[I] [service.go:214] [7607fa36bb421edd] try to reconnect to server...[0m
+2024/01/14 22:11:22 [1;33m[W] [service.go:217] [7607fa36bb421edd] reconnect to server error: connection write timeout, wait 20s for another retry[0m
+2024/01/14 22:11:43 [1;34m[I] [service.go:214] [7607fa36bb421edd] try to reconnect to server...[0m
+2024/01/14 22:11:53 [1;33m[W] [service.go:217] [7607fa36bb421edd] reconnect to server error: connection write timeout, wait 20s for another retry[0m
+2024/01/14 22:12:13 [1;34m[I] [service.go:214] [7607fa36bb421edd] try to reconnect to server...[0m
+2024/01/14 22:12:23 [1;33m[W] [service.go:217] [7607fa36bb421edd] reconnect to server error: connection write timeout, wait 20s for another retry[0m
+2024/01/14 22:12:42 [1;34m[I] [service.go:214] [7607fa36bb421edd] try to reconnect to server...[0m
+2024/01/14 22:12:52 [1;33m[W] [service.go:217] [7607fa36bb421edd] reconnect to server error: connection write timeout, wait 20s for another retry[0m
+2024/01/14 22:13:10 [1;34m[I] [service.go:214] [7607fa36bb421edd] try to reconnect to server...[0m
+2024/01/14 22:13:20 [1;33m[W] [service.go:217] [7607fa36bb421edd] reconnect to server error: connection write timeout, wait 20s for another retry[0m
+2024/01/14 22:13:39 [1;34m[I] [service.go:214] [7607fa36bb421edd] try to reconnect to server...[0m
+2024/01/14 22:13:49 [1;33m[W] [service.go:217] [7607fa36bb421edd] reconnect to server error: connection write timeout, wait 20s for another retry[0m
+2024/01/14 22:14:10 [1;34m[I] [service.go:214] [7607fa36bb421edd] try to reconnect to server...[0m
+2024/01/14 22:14:15 [1;33m[W] [service.go:217] [7607fa36bb421edd] reconnect to server error: EOF, wait 20s for another retry[0m
+2024/01/14 22:14:35 [1;34m[I] [service.go:214] [7607fa36bb421edd] try to reconnect to server...[0m
+2024/01/14 22:14:39 [1;33m[W] [service.go:217] [7607fa36bb421edd] reconnect to server error: session shutdown, wait 20s for another retry[0m
+2024/01/14 22:14:59 [1;34m[I] [service.go:214] [7607fa36bb421edd] try to reconnect to server...[0m
+2024/01/14 22:15:02 [1;33m[W] [service.go:217] [7607fa36bb421edd] reconnect to server error: session shutdown, wait 20s for another retry[0m
+2024/01/14 22:15:23 [1;34m[I] [service.go:214] [7607fa36bb421edd] try to reconnect to server...[0m
+2024/01/14 22:15:25 [1;33m[W] [service.go:217] [7607fa36bb421edd] reconnect to server error: session shutdown, wait 20s for another retry[0m
+2024/01/14 22:15:45 [1;34m[I] [service.go:214] [7607fa36bb421edd] try to reconnect to server...[0m
+2024/01/14 22:15:48 [1;33m[W] [service.go:217] [7607fa36bb421edd] reconnect to server error: EOF, wait 20s for another retry[0m
+2024/01/14 22:16:09 [1;34m[I] [service.go:214] [7607fa36bb421edd] try to reconnect to server...[0m
+2024/01/14 22:16:13 [1;33m[W] [service.go:217] [7607fa36bb421edd] reconnect to server error: session shutdown, wait 20s for another retry[0m
+2024/01/14 22:16:33 [1;34m[I] [service.go:214] [7607fa36bb421edd] try to reconnect to server...[0m
+2024/01/14 22:16:36 [1;33m[W] [service.go:217] [7607fa36bb421edd] reconnect to server error: session shutdown, wait 20s for another retry[0m
+2024/01/14 22:16:57 [1;34m[I] [service.go:214] [7607fa36bb421edd] try to reconnect to server...[0m
+2024/01/14 22:17:00 [1;33m[W] [service.go:217] [7607fa36bb421edd] reconnect to server error: session shutdown, wait 20s for another retry[0m
+2024/01/14 22:17:18 [1;34m[I] [service.go:214] [7607fa36bb421edd] try to reconnect to server...[0m
+2024/01/14 22:17:22 [1;33m[W] [service.go:217] [7607fa36bb421edd] reconnect to server error: EOF, wait 20s for another retry[0m
+2024/01/14 22:17:42 [1;34m[I] [service.go:214] [7607fa36bb421edd] try to reconnect to server...[0m
+2024/01/14 22:17:45 [1;33m[W] [service.go:217] [7607fa36bb421edd] reconnect to server error: EOF, wait 20s for another retry[0m
+2024/01/14 22:18:06 [1;34m[I] [service.go:214] [7607fa36bb421edd] try to reconnect to server...[0m
+2024/01/14 22:18:09 [1;33m[W] [service.go:217] [7607fa36bb421edd] reconnect to server error: session shutdown, wait 20s for another retry[0m
+2024/01/14 22:18:30 [1;34m[I] [service.go:214] [7607fa36bb421edd] try to reconnect to server...[0m
+2024/01/14 22:18:34 [1;33m[W] [service.go:217] [7607fa36bb421edd] reconnect to server error: session shutdown, wait 20s for another retry[0m
+2024/01/14 22:18:53 [1;34m[I] [service.go:214] [7607fa36bb421edd] try to reconnect to server...[0m
+2024/01/14 22:18:57 [1;33m[W] [service.go:217] [7607fa36bb421edd] reconnect to server error: session shutdown, wait 20s for another retry[0m
+2024/01/14 22:19:18 [1;34m[I] [service.go:214] [7607fa36bb421edd] try to reconnect to server...[0m
+2024/01/14 22:19:21 [1;33m[W] [service.go:217] [7607fa36bb421edd] reconnect to server error: session shutdown, wait 20s for another retry[0m
+2024/01/14 22:19:43 [1;34m[I] [service.go:214] [7607fa36bb421edd] try to reconnect to server...[0m
+2024/01/14 22:19:46 [1;33m[W] [service.go:217] [7607fa36bb421edd] reconnect to server error: session shutdown, wait 20s for another retry[0m
+2024/01/14 22:20:05 [1;34m[I] [service.go:214] [7607fa36bb421edd] try to reconnect to server...[0m
+2024/01/14 22:20:08 [1;33m[W] [service.go:217] [7607fa36bb421edd] reconnect to server error: session shutdown, wait 20s for another retry[0m
+2024/01/14 22:20:27 [1;34m[I] [service.go:214] [7607fa36bb421edd] try to reconnect to server...[0m
+2024/01/14 22:20:30 [1;33m[W] [service.go:217] [7607fa36bb421edd] reconnect to server error: session shutdown, wait 20s for another retry[0m
+2024/01/14 22:20:50 [1;34m[I] [service.go:214] [7607fa36bb421edd] try to reconnect to server...[0m
+2024/01/14 22:20:54 [1;33m[W] [service.go:217] [7607fa36bb421edd] reconnect to server error: session shutdown, wait 20s for another retry[0m
+2024/01/14 22:21:15 [1;34m[I] [service.go:214] [7607fa36bb421edd] try to reconnect to server...[0m
+2024/01/14 22:21:18 [1;33m[W] [service.go:217] [7607fa36bb421edd] reconnect to server error: session shutdown, wait 20s for another retry[0m
+2024/01/14 22:21:36 [1;34m[I] [service.go:214] [7607fa36bb421edd] try to reconnect to server...[0m
+2024/01/14 22:21:39 [1;33m[W] [service.go:217] [7607fa36bb421edd] reconnect to server error: session shutdown, wait 20s for another retry[0m
+2024/01/14 22:21:57 [1;34m[I] [service.go:214] [7607fa36bb421edd] try to reconnect to server...[0m
+2024/01/14 22:22:01 [1;33m[W] [service.go:217] [7607fa36bb421edd] reconnect to server error: session shutdown, wait 20s for another retry[0m
+2024/01/14 22:22:23 [1;34m[I] [service.go:214] [7607fa36bb421edd] try to reconnect to server...[0m
+2024/01/14 22:22:26 [1;33m[W] [service.go:217] [7607fa36bb421edd] reconnect to server error: session shutdown, wait 20s for another retry[0m
+2024/01/14 22:22:47 [1;34m[I] [service.go:214] [7607fa36bb421edd] try to reconnect to server...[0m
+2024/01/14 22:22:51 [1;33m[W] [service.go:217] [7607fa36bb421edd] reconnect to server error: EOF, wait 20s for another retry[0m
+2024/01/14 22:23:09 [1;34m[I] [service.go:214] [7607fa36bb421edd] try to reconnect to server...[0m
+2024/01/14 22:23:13 [1;33m[W] [service.go:217] [7607fa36bb421edd] reconnect to server error: session shutdown, wait 20s for another retry[0m
+2024/01/14 22:23:34 [1;34m[I] [service.go:214] [7607fa36bb421edd] try to reconnect to server...[0m
+2024/01/14 22:23:37 [1;33m[W] [service.go:217] [7607fa36bb421edd] reconnect to server error: session shutdown, wait 20s for another retry[0m
+2024/01/14 22:23:55 [1;34m[I] [service.go:214] [7607fa36bb421edd] try to reconnect to server...[0m
+2024/01/14 22:23:59 [1;33m[W] [service.go:217] [7607fa36bb421edd] reconnect to server error: session shutdown, wait 20s for another retry[0m
+2024/01/14 22:24:19 [1;34m[I] [service.go:214] [7607fa36bb421edd] try to reconnect to server...[0m
+2024/01/14 22:24:22 [1;33m[W] [service.go:217] [7607fa36bb421edd] reconnect to server error: session shutdown, wait 20s for another retry[0m
+2024/01/14 22:24:40 [1;34m[I] [service.go:214] [7607fa36bb421edd] try to reconnect to server...[0m
+2024/01/14 22:24:42 [1;33m[W] [service.go:217] [7607fa36bb421edd] reconnect to server error: session shutdown, wait 20s for another retry[0m
+2024/01/14 22:25:04 [1;34m[I] [service.go:214] [7607fa36bb421edd] try to reconnect to server...[0m
+2024/01/14 22:25:07 [1;33m[W] [service.go:217] [7607fa36bb421edd] reconnect to server error: session shutdown, wait 20s for another retry[0m
+2024/01/14 22:25:25 [1;34m[I] [service.go:214] [7607fa36bb421edd] try to reconnect to server...[0m
+2024/01/14 22:25:29 [1;33m[W] [service.go:217] [7607fa36bb421edd] reconnect to server error: session shutdown, wait 20s for another retry[0m
+2024/01/14 22:25:50 [1;34m[I] [service.go:214] [7607fa36bb421edd] try to reconnect to server...[0m
+2024/01/14 22:25:53 [1;34m[I] [service.go:301] [7607fa36bb421edd] login to server success, get run id [7607fa36bb421edd][0m
+2024/01/14 22:25:53 [1;34m[I] [proxy_manager.go:150] [7607fa36bb421edd] proxy added: [my_ssh][0m
+2024/01/14 22:25:53 [1;34m[I] [control.go:172] [7607fa36bb421edd] [my_ssh] start proxy success[0m
+2024/01/14 22:28:29 [1;34m[I] [control.go:252] [7607fa36bb421edd] control writer is closing[0m
+2024/01/14 22:28:29 [1;34m[I] [visitor_manager.go:77] [7607fa36bb421edd] gracefully shutdown visitor manager[0m
+2024/01/14 22:28:29 [1;34m[I] [service.go:214] [7607fa36bb421edd] try to reconnect to server...[0m
+2024/01/14 22:28:31 [1;33m[W] [service.go:217] [7607fa36bb421edd] reconnect to server error: session shutdown, wait 1s for another retry[0m
+2024/01/14 22:28:32 [1;34m[I] [service.go:214] [7607fa36bb421edd] try to reconnect to server...[0m
+2024/01/14 22:28:33 [1;34m[I] [service.go:301] [7607fa36bb421edd] login to server success, get run id [7607fa36bb421edd][0m
+2024/01/14 22:28:33 [1;34m[I] [proxy_manager.go:150] [7607fa36bb421edd] proxy added: [my_ssh][0m
+2024/01/14 22:28:33 [1;34m[I] [control.go:172] [7607fa36bb421edd] [my_ssh] start proxy success[0m
+2024/01/15 11:05:47 [1;34m[I] [root.go:220] start frpc service for config file [./frpc.ini][0m
+2024/01/15 11:05:47 [1;34m[I] [service.go:301] [d0f4342a76c89bfe] login to server success, get run id [d0f4342a76c89bfe][0m
+2024/01/15 11:05:47 [1;34m[I] [proxy_manager.go:150] [d0f4342a76c89bfe] proxy added: [my_ssh][0m
+2024/01/15 11:05:47 [1;34m[I] [control.go:172] [d0f4342a76c89bfe] [my_ssh] start proxy success[0m
