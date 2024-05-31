@@ -26464,3 +26464,9 @@
 2024/05/31 09:54:14 [1;34m[I] [proxy_manager.go:150] [8c28b031f50cb82e] proxy added: [my_ssh smtp][0m
 2024/05/31 09:54:15 [1;34m[I] [control.go:172] [8c28b031f50cb82e] [my_ssh] start proxy success[0m
 2024/05/31 09:54:15 [1;34m[I] [control.go:172] [8c28b031f50cb82e] [smtp] start proxy success[0m
+2024/05/31 12:49:15 [1;31m[E] [proxy.go:196] [8c28b031f50cb82e] [my_ssh] connect to local service [192.168.1.173:22] error: dial tcp 192.168.1.173:22: connect: no route to host[0m
+2024/05/31 12:55:18 [1;34m[I] [root.go:220] start frpc service for config file [./frpc.ini][0m
+2024/05/31 12:55:20 [1;34m[I] [service.go:301] [f74205f87de7baec] login to server success, get run id [f74205f87de7baec][0m
+2024/05/31 12:55:20 [1;34m[I] [proxy_manager.go:150] [f74205f87de7baec] proxy added: [my_ssh smtp][0m
+2024/05/31 12:55:21 [1;34m[I] [control.go:172] [f74205f87de7baec] [my_ssh] start proxy success[0m
+2024/05/31 12:55:21 [1;34m[I] [control.go:172] [f74205f87de7baec] [smtp] start proxy success[0m
