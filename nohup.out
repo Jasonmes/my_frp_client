@@ -26459,3 +26459,8 @@
 2024/05/02 00:39:12 [1;33m[W] [service.go:217] [fe10abd16ae1cd25] reconnect to server error: dial tcp 107.172.196.114:7000: connect: connection refused, wait 20s for another retry[0m
 2024/05/02 00:39:30 [1;34m[I] [service.go:214] [fe10abd16ae1cd25] try to reconnect to server...[0m
 2024/05/02 00:39:31 [1;33m[W] [service.go:217] [fe10abd16ae1cd25] reconnect to server error: dial tcp 107.172.196.114:7000: connect: connection refused, wait 20s for another retry[0m
+2024/05/31 09:54:14 [1;34m[I] [root.go:220] start frpc service for config file [frpc.ini][0m
+2024/05/31 09:54:14 [1;34m[I] [service.go:301] [8c28b031f50cb82e] login to server success, get run id [8c28b031f50cb82e][0m
+2024/05/31 09:54:14 [1;34m[I] [proxy_manager.go:150] [8c28b031f50cb82e] proxy added: [my_ssh smtp][0m
+2024/05/31 09:54:15 [1;34m[I] [control.go:172] [8c28b031f50cb82e] [my_ssh] start proxy success[0m
+2024/05/31 09:54:15 [1;34m[I] [control.go:172] [8c28b031f50cb82e] [smtp] start proxy success[0m
