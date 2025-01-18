@@ -27617,3 +27617,21 @@
 2025/01/18 23:38:07 [1;34m[I] [control.go:172] [4ba6e63915c2fa9d] [smtp] start proxy success[0m
 2025/01/18 23:38:07 [1;33m[W] [control.go:170] [4ba6e63915c2fa9d] [web] start error: type [http] not support when vhost_http_port is not set[0m
 2025/01/18 23:38:40 [1;33m[W] [control.go:170] [4ba6e63915c2fa9d] [web] start error: type [http] not support when vhost_http_port is not set[0m
+2025/01/18 23:39:13 [1;33m[W] [control.go:170] [4ba6e63915c2fa9d] [web] start error: type [http] not support when vhost_http_port is not set[0m
+2025/01/18 23:39:46 [1;33m[W] [control.go:170] [4ba6e63915c2fa9d] [web] start error: type [http] not support when vhost_http_port is not set[0m
+2025/01/18 23:40:19 [1;33m[W] [control.go:170] [4ba6e63915c2fa9d] [web] start error: type [http] not support when vhost_http_port is not set[0m
+2025/01/18 23:40:36 [1;34m[I] [control.go:252] [4ba6e63915c2fa9d] control writer is closing[0m
+2025/01/18 23:40:36 [1;34m[I] [visitor_manager.go:77] [4ba6e63915c2fa9d] gracefully shutdown visitor manager[0m
+2025/01/18 23:40:37 [1;34m[I] [service.go:214] [4ba6e63915c2fa9d] try to reconnect to server...[0m
+2025/01/18 23:40:37 [1;33m[W] [service.go:217] [4ba6e63915c2fa9d] reconnect to server error: dial tcp 47.119.125.224:7000: connect: connection refused, wait 1s for another retry[0m
+2025/01/18 23:40:38 [1;34m[I] [service.go:214] [4ba6e63915c2fa9d] try to reconnect to server...[0m
+2025/01/18 23:40:38 [1;33m[W] [service.go:217] [4ba6e63915c2fa9d] reconnect to server error: dial tcp 47.119.125.224:7000: connect: connection refused, wait 2s for another retry[0m
+2025/01/18 23:40:40 [1;34m[I] [service.go:214] [4ba6e63915c2fa9d] try to reconnect to server...[0m
+2025/01/18 23:40:40 [1;33m[W] [service.go:217] [4ba6e63915c2fa9d] reconnect to server error: dial tcp 47.119.125.224:7000: connect: connection refused, wait 4s for another retry[0m
+2025/01/18 23:40:43 [1;34m[I] [service.go:214] [4ba6e63915c2fa9d] try to reconnect to server...[0m
+2025/01/18 23:40:44 [1;33m[W] [service.go:217] [4ba6e63915c2fa9d] reconnect to server error: dial tcp 47.119.125.224:7000: connect: connection refused, wait 8s for another retry[0m
+2025/01/18 23:40:52 [1;34m[I] [service.go:214] [4ba6e63915c2fa9d] try to reconnect to server...[0m
+2025/01/18 23:40:52 [1;33m[W] [service.go:217] [4ba6e63915c2fa9d] reconnect to server error: dial tcp 47.119.125.224:7000: connect: connection refused, wait 16s for another retry[0m
+2025/01/18 23:41:11 [1;34m[I] [root.go:220] start frpc service for config file [frpc_yes.ini][0m
+2025/01/18 23:41:11 [1;33m[W] [service.go:133] login to server failed: dial tcp 47.119.125.224:7000: connect: connection refused[0m
+2025/01/18 23:41:11 [1;34m[I] [root.go:236] frpc service for config file [frpc_yes.ini] stopped[0m
